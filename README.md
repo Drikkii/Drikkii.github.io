@@ -1,4 +1,4 @@
-# [Site](https://github.com/Drikkii) - link on site
+# [Site](https://drikkii.github.io/) - link on site
 
 _This site was developed based on all my knowledge on 06/06/2023_
 _The project uses knowledge_
