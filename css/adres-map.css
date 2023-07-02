@@ -1,0 +1,17 @@
+h5 {
+  font-size: 0.9em;
+}
+.adress {
+  border-radius: 1rem;
+  border: 0.1rem #cccccc solid;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.63);
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1em;
+  display: block;
+  position: relative;
+  width: 1200px;
+}

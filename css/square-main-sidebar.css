@@ -1,0 +1,23 @@
+.head-main-sidebar {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 2rem;
+  border-top: 4px solid #eee;
+  border-bottom: 4px solid #eee;
+  background-color: rgba(165, 42, 42, 0);
+}
+.square-main-sidebar {
+  text-align: center;
+  margin-top: 1rem;
+  background-color: rgba(255, 255, 255, 0);
+}
+#strong {
+  font-weight: bold;
+}
+#UK-OOO-Proekt {
+  font-family: "Century Gothic", Arial, "Arial Unicode MS", Helvetica,
+    Sans-Serif;
+}
+#red-number {
+  color: red;
+}

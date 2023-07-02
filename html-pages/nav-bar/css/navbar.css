@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #fff;
+}
+
+h3 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+
+  color: #000000;
+}
+a {
+  text-decoration: none;
+
+  color: #000000;
+}
+a:hover {
+  text-decoration: none;
+
+  color: #000000;
+}
+.main-menu {
+  width: 75rem;
+  margin: 0 auto;
+}
+#container {
+  width: 100%;
+  box-shadow: 0 2px 10px red;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  text-align: center;
+  margin: 0 auto;
+}
+
+nav {
+  margin: 0.6rem 0;
+  background-color: #fafafa;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li {
+  display: inline-block;
+  background-color: #ffffff5b;
+}
+
+nav a {
+  display: block;
+  padding: 0 0.6rem;
+  color: #000000;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #e0070781;
+  text-decoration: none;
+  background-color: #c4b7b745;
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 3.55rem; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 9.375rem;
+  display: flex;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  top: -1.8rem;
+  height: auto;
+  background-color: #ffffff;
+  width: 100%;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+.home-size {
+  font-size: 10px;
+}
+.category-item {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  height: 1.8rem;
+  left: -10.6rem;
+  background-color: #ffffff;
+  width: 100%;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+  width: 100%;
+  position: relative;
+  top: -3.75rem;
+  left: 6.25rem;
+}
+
+/* Change this in order to change the Dropdown symbol */
+li > a:after {
+  content: " ";
+}
+li > a:only-child:after {
+  content: "";
+}

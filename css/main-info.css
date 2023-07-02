@@ -1,0 +1,37 @@
+/* общий контейнер */
+
+.main-info {
+  width: 1200px;
+  justify-content: space-around;
+  position: relative;
+  display: flex;
+  min-height: 35em;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* левый бар */
+.left-sidebar {
+  margin-left: 2em;
+  margin-right: 2em;
+
+  width: 20%;
+}
+/* центральный бар */
+.main-sidebar {
+  border-radius: 1rem;
+  border: 0.3rem #cccccc solid;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.63);
+  display: block;
+  background-color: white;
+  padding: 10px;
+  margin: 0 auto;
+  min-height: 400px;
+  width: 60%;
+}
+/* правый бар */
+.right-sidebar {
+  margin-left: 3em;
+
+  width: 20%;
+}
+/* общие настройки для левого и правого бара */

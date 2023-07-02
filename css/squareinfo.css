@@ -1,0 +1,60 @@
+.main-info4 {
+  width: 45rem;
+  justify-content: space-around;
+  position: relative;
+  display: flex;
+  min-height: 35em;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* левый бар */
+.left-sidebar {
+  margin-left: 2em;
+  margin-right: 2em;
+
+  width: 100%;
+}
+/* центральный бар */
+.main-sidebar {
+  align-items: center;
+  position: relative;
+  border-radius: 1rem;
+  border: 0.3rem #cccccc solid;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.63);
+  display: block;
+  background-color: white;
+  padding: 10px;
+  margin: 0 auto;
+  min-height: 400px;
+  width: 45rem;
+}
+/* правый бар */
+.right-sidebar {
+  margin-left: 3em;
+
+  width: 100%;
+}
+
+.head-main-sidebar {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 2rem;
+  border-top: 4px solid #eee;
+  border-bottom: 4px solid #eee;
+  background-color: rgba(165, 42, 42, 0);
+}
+.square-main-sidebar {
+  text-align: center;
+  margin-top: 1rem;
+  background-color: rgba(255, 255, 255, 0);
+}
+#strong {
+  font-weight: bold;
+}
+#UK-OOO-Proekt {
+  font-family: "Century Gothic", Arial, "Arial Unicode MS", Helvetica,
+    Sans-Serif;
+}
+#red-number {
+  color: red;
+}

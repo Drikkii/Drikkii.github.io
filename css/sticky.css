@@ -1,0 +1,21 @@
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.scroll {
+  height: 1px;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: 1s;
+  animation: appear 0.5s;
+}
+
+/* /// Stuff */

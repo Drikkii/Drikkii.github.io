@@ -1,0 +1,92 @@
+/* общие х-ки страницы */
+
+.main-container {
+  border-radius: 1rem;
+  border: 0.1rem #cccccc00 solid;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0);
+  position: relative;
+
+  background-color: rgba(255, 255, 255, 0);
+  margin: 0 auto;
+  width: 100%;
+
+  min-height: 600px;
+}
+
+/* шапка сайта */
+header {
+  margin: 0 auto;
+  margin-top: 5px;
+  width: 1200px;
+  max-width: 0 auto;
+  min-height: 100px;
+  max-height: 0 auto;
+}
+.h-info {
+  justify-content: space-between;
+  display: flex;
+  margin: 0 auto;
+}
+.h-container {
+  margin: 20px 20px 0px 20px;
+}
+.logo {
+  display: flex;
+  min-height: 100px;
+  min-width: 200px;
+}
+
+.h-adress {
+  height: 100px;
+  width: 500px;
+}
+.in-adress {
+  justify-content: space-between;
+  margin: 0, auto;
+  display: flex;
+}
+.h-adr {
+  display: flex;
+}
+i.fa {
+  padding: 10px;
+  color: rgb(231, 22, 22);
+
+  font-size: 50px;
+}
+
+/* Мейн меню сайта */
+
+.nav-menu {
+  margin: 0 auto;
+  min-height: 10px;
+  list-style-type: none;
+  padding-top: 5px;
+
+  justify-content: space-around;
+  display: flex;
+}
+.Buttimg {
+  border-radius: 50px;
+  min-height: 50px;
+  border: 0;
+  cursor: pointer;
+  background-color: white;
+}
+.Buttimg:hover {
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(5, 255, 0, 1) 55%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  color: black;
+}
+
+.Buttimg:focus {
+  color: blueviolet;
+  border-radius: 20px;
+  outline: 0;
+}
